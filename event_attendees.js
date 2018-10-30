@@ -1,7 +1,7 @@
 const slackToken = 'REPLACE_WITH_SLACK_TOKEN'
 const eventId = 'REPLACE_WITH_EVENT_CODE'
 
-const chickenUsersUrl = 'https://chicken-ubacm.herokuapp.com/users/scores'
+const chickenUsersUrl = 'https://checkin-chicken.herokuapp.com/users/scores'
 const slackUsersListUrl = `https://slack.com/api/users.list?token=${slackToken}`
 
 fetch(chickenUsersUrl)
